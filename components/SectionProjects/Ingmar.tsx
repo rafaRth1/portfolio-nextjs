@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Reveal from '../Reveal/Reveal';
+import LaptopMockupMovies from '../../public/mockups/laptop-mockup-movies.png';
+import TabletMockupIngmar from '../../public/mockups/tablet-mockup-movies.png';
+import PhoneMockupIngmar from '../../public/mockups/phone-mockup-movies.png';
 import { BiLogoMongodb, BiLogoTailwindCss, BiLogoTypescript } from 'react-icons/bi';
 import { IoLogoReact } from 'react-icons/io5';
 import { SiExpress } from 'react-icons/si';
@@ -8,13 +11,13 @@ import { SiExpress } from 'react-icons/si';
 export default function Ingmar() {
 	return (
 		<div className='relative mb-10'>
-			<div className='absolute w-full h-full  gradients-one flex justify-evenly items-center z-10'>
+			<div className='absolute w-full h-full gradients-one flex justify-evenly items-center z-10'>
 				<div className='w-[250px] h-[250px] rounded-full bg-[#3730A3] blur-[150px]'></div>
 				<div className='w-[250px] h-[250px] rounded-full bg-[#B84234] blur-[150px]'></div>
 				<div className='w-[250px] h-[250px] rounded-full bg-[#BF8732] blur-[150px]'></div>
 			</div>
 
-			<div className='flex flex-col md:flex-row items-center mb-10 z-30 relative'>
+			<div className='flex flex-col xl:flex-row items-center mb-10 z-30 relative'>
 				<div className='flex flex-col basis-1/2'>
 					<h3 className='text-2xl text-neutral-300 font-bold text-center md:text-left'>App Movie - Ingmar</h3>
 
@@ -72,21 +75,19 @@ export default function Ingmar() {
 					</div>
 				</div>
 
-				<picture className='basis-1/2 mt-10 md:mt-0'>
+				<picture className='basis-1/2 mt-10 xl:mt-0'>
 					<Reveal>
 						<Image
-							src='/mockups/laptop-mockup-movies.png'
+							src={LaptopMockupMovies}
 							alt='Laptop Image Project'
-							width={700}
-							height={378}
 						/>
 					</Reveal>
 				</picture>
 			</div>
 
-			<div className='flex justify-end items-center relative z-30'>
+			<div className='flex justify-center items-center relative z-30'>
 				<Reveal>
-					<picture className='hidden md:block md:basis-1/2'>
+					<picture className='hidden lg:block md:basis-1/2'>
 						<Image
 							src='/characters/character-3d-right.png'
 							alt='Personaje 3d'
@@ -96,14 +97,13 @@ export default function Ingmar() {
 					</picture>
 				</Reveal>
 
-				<div className='flex md:basis-1/2 '>
+				<div className='flex'>
 					<picture>
 						<Reveal>
 							<Image
-								src='/mockups/tablet-mockup-movies.png'
+								src={TabletMockupIngmar}
 								alt='Tablet Image Project'
-								width={380}
-								height={520}
+								height={540}
 							/>
 						</Reveal>
 					</picture>
@@ -111,10 +111,9 @@ export default function Ingmar() {
 					<picture className='grid place-items-end md:place-items-center'>
 						<Reveal>
 							<Image
-								src='/mockups/phone-mockup-movies.png'
+								src={PhoneMockupIngmar}
 								alt='Phone Image Project'
-								width={212}
-								height={400}
+								height={440}
 							/>
 						</Reveal>
 					</picture>

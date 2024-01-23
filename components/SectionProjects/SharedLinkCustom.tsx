@@ -15,8 +15,8 @@ export default function SharedLinkCustom() {
 				<div className='w-[250px] h-[250px] rounded-full bg-[#3B82F6] blur-[150px]'></div>
 			</div>
 
-			<div className='flex flex-col-reverse md:flex-row items-center mb-10 z-30 relative'>
-				<picture className='basis-1/2 mt-10 md:mt-0'>
+			<div className='flex flex-col-reverse xl:flex-row items-center mb-10 z-30 relative'>
+				<picture className='basis-1/2 mt-10 xl:mt-0'>
 					<Reveal>
 						<Image
 							src={Tablet_Mockup_Link}
@@ -81,7 +81,7 @@ export default function SharedLinkCustom() {
 				</div>
 			</div>
 
-			<div className='flex items-center relative z-30'>
+			<div className='flex justify-center items-center relative z-30'>
 				<Reveal>
 					<div className='flex md:basis-1/2 lg:ml-14'>
 						<picture>
@@ -104,7 +104,7 @@ export default function SharedLinkCustom() {
 					</div>
 				</Reveal>
 
-				<picture className='hidden md:block md:basis-1/2'>
+				<picture className='hidden lg:block md:basis-1/2'>
 					<Reveal>
 						<Image
 							src='/characters/character-3d-left.png'

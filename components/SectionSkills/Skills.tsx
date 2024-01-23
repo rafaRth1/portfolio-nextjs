@@ -15,55 +15,55 @@ export default function Skills() {
 					<div className='w-[250px] h-[250px] rounded-full bg-[#202635] blur-[150px]'></div>
 				</div>
 
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#FF4B00] transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#FF4B00] transition-all'>
 					<span>HTML5</span>
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer text-neutral-100 transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer text-neutral-100 transition-all'>
 					<div className='w-full h-full bg-neutral-950'></div>
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#006db4] transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#006db4] transition-all'>
 					CSS3
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'>
 					<img
 						src='./abstract-item-2.png'
 						alt='Espiral Image'
 						className='object-cover'
 					/>
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#FFDF00] transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#FFDF00] transition-all'>
 					Javascript
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'></div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#07b6d5] transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'></div>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#07b6d5] transition-all'>
 					TailwindCSS
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'>
 					<img
 						src='./abstract-item-1.png'
 						alt='Espiral Image'
 					/>
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#DE2A75] transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#DE2A75] transition-all'>
 					Sass
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'></div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#01ccfe] transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'></div>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#01ccfe] transition-all'>
 					ReactJS
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer text-neutral-100'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer text-neutral-100'>
 					<div className='w-full h-full bg-neutral-950'></div>
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'>
 					ExpressJS
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'>
 					NextJS
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#00FF7B] transition-all'>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-[#00FF7B] transition-all'>
 					Skills
 				</div>
-				<div className='grid__item text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'></div>
+				<div className='grid-item sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium cursor-pointer hover:bg-neutral-900 text-neutral-100 transition-all'></div>
 			</div>
 		</section>
 	);

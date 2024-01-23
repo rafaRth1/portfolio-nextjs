@@ -3,7 +3,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Reveal from '../Reveal/Reveal';
-import Tablet_Mockup_Trello from '../../public/mockups/laptop-mockup-thullo.png';
+import LaptopMockupThullo from '../../public/mockups/laptop-mockup-thullo.png';
+import PhoneMockupThullo from '../../public/mockups/phone-mockup-thullo.png';
+import TabletMockupThullo from '../../public/mockups/tablet-mockup-trello.png';
 import TrelloMockup1 from '../../public/mockups/TrelloMockup1.png';
 import TrelloMockup2 from '../../public/mockups/TrelloMockup2.png';
 import TrelloMockup3 from '../../public/mockups/TrelloMockup3.png';
@@ -21,17 +23,17 @@ export default function TrelloClone() {
 		<>
 			<div className='mb-10'>
 				<div className='relative'>
-					<div className='absolute w-full h-full  gradients-one flex justify-evenly items-center z-10'>
+					<div className='absolute w-full h-full gradients-one flex justify-evenly items-center z-10'>
 						<div className='w-[250px] h-[250px] rounded-full bg-[#FF0000] blur-[150px]'></div>
 						<div className='w-[250px] h-[250px] rounded-full bg-[#0E9FF8] blur-[150px]'></div>
 						<div className='w-[250px] h-[250px] rounded-full bg-[#3B82F6] blur-[150px]'></div>
 					</div>
 
-					<div className='flex flex-col-reverse md:flex-row items-center mb-10 z-30 relative'>
-						<picture className='basis-1/2 mt-10 md:mt-0'>
+					<div className='flex flex-col-reverse xl:flex-row items-center mb-10 z-30 relative'>
+						<picture className='xl:basis-1/2 mt-10 xl:mt-0'>
 							<Reveal>
 								<Image
-									src={Tablet_Mockup_Trello}
+									src={LaptopMockupThullo}
 									alt='Laptop Image Project'
 									loading='lazy'
 									placeholder='empty'
@@ -99,30 +101,27 @@ export default function TrelloClone() {
 						</div>
 					</div>
 
-					<div className='flex items-center relative z-30'>
+					<div className='flex items-center justify-center relative z-30'>
 						<Reveal>
 							<div className='flex md:basis-1/2 lg:ml-14'>
 								<picture>
 									<Image
-										src='/mockups/tablet-mockup-trello.png'
+										src={TabletMockupThullo}
 										alt='Tablet Image Project'
-										width={380}
-										height={520}
+										height={600}
 									/>
 								</picture>
 
 								<picture className='grid place-items-end md:place-items-center'>
 									<Image
-										src='/mockups/phone-mockup-thullo.png'
+										src={PhoneMockupThullo}
 										alt='Phone Image Project'
-										width={212}
-										height={399}
 									/>
 								</picture>
 							</div>
 						</Reveal>
 
-						<picture className='hidden md:block md:basis-1/2'>
+						<picture className='hidden lg:block md:basis-1/2'>
 							<Reveal>
 								<Image
 									src='/characters/character-3d-left.png'
