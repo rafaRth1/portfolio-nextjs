@@ -19,7 +19,7 @@ export default function Home() {
 							</span>
 						</h1>
 
-						<p className='text-xl text-neutral-300 mt-4 text-center font-semibold'>Desarrollador Frontend</p>
+						{/* <p className='text-xl text-neutral-300 mt-4 text-center font-semibold'>Desarrollador Frontend</p> */}
 					</div>
 				</div>
 
@@ -37,7 +37,7 @@ export default function Home() {
 						<span className='ml-2'>Github</span>
 					</Link>
 
-					<Link
+					{/* <Link
 						href='/'
 						className='flex items-center bg-neutral-300 text-neutral-800 font-semibold py-3 px-5 rounded-xl'>
 						<IoLogoLinkedin
@@ -46,7 +46,7 @@ export default function Home() {
 						/>
 
 						<span className='ml-2'>LinkedIn</span>
-					</Link>
+					</Link> */}
 				</div>
 			</div>
 
